@@ -29,9 +29,9 @@ def test():
 
 
 def demo(name):  # name - positional argument
-    print('---------------',name)
+    # print('---------------',name)
     res = name.upper()
-    print('###################',res)
+    # print('###################',res)
     return res
 
 
