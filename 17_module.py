@@ -4,6 +4,9 @@ Module is a python file that can be imported inside another file.
 
 """
 
+import os
+import datetime
+
 # Method - 1
 
 '''
@@ -41,20 +44,28 @@ print(value)
 # # filename - break_continue_pass as bcp
 #
 # bcp.add()
+# import calc as cl
+#
+# print(cl.value)
+# print(cl.div(100,10))
+
+
+# from test import sample
+#
+# print(sample.email('abc','xyz'))
+#
+#
+# from test2 import sample2
+#
+# print(sample2.demo())
+#
+
+from colorama import Fore
+print(Fore.RED + 'some red text')
+
+
 '''
-import calc as cl
-
-print(cl.value)
-print(cl.div(100,10))
-
+In-built - eg: datetime
+third party module - eg: colorma
+use defined - our own python files
 '''
-
-from test import sample
-
-print(sample.email('abc','xyz'))
-
-
-from test2 import sample2
-
-print(sample2.demo())
-
