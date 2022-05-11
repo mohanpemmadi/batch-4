@@ -1,0 +1,24 @@
+[
+  {
+    "name": "mohan",
+    "age": 31,
+    "designation": [
+      "test engineer",
+      "python developer"
+    ]
+  },
+  {
+    "name": "venky",
+    "age": 30,
+    "designation": [
+      "java developer"
+    ]
+  },
+  {
+    "name": "ravi",
+    "age": 32,
+    "designation": [
+      "c developer"
+    ]
+  }
+]
