@@ -153,13 +153,53 @@ class Son(Father,Mother):
     def occupation(self):
         return 'software engineer'
 
-obj = Son()
-print(obj.occupation())
-print(obj.color())
-print(obj.blood_group())
+# obj = Son()
+# print(obj.occupation())
+# print(obj.color())
+# print(obj.blood_group())
+
+""" Method Overriding - Overrides parent class method with child class method """
 
 
+class A:
+    def test(self):
+        return 'class A'
 
+class B(A):
+    def test(self):
+        return 'class B'
+
+
+# obj = B()
+#
+# print(obj.test())
+
+""" Super keyword - used to access super class properties """
+
+
+class A:
+    def test(self):
+        print('class-A')
+
+class B(A):
+    def test(self):
+        super().test()
+        print('class-B')
+
+# obj = B()
+# obj.test()
+
+
+class C:
+    def __init__(self):
+        print('class - C')
+
+class D(C):
+    def __init__(self):
+        super(D, self).__init__()
+        print('class - D')
+
+obj = D()
 
 
 
